@@ -5,6 +5,7 @@ export const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
+  
 
 
   const handleSubmit = async (e) => {
